@@ -1,0 +1,84 @@
+
+body {
+  background-color: #F2F2F2;
+  background-image: url('../images/seigaiha.png')
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#profile {
+  border-radius: 50%;
+}
+
+.card {
+    background: #937CC3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+ }
+
+
+
+p {
+  font-family: Montserrat;
+  color: #F6F6F6;
+  line-height: 25px;
+}
+
+h1{
+  font-family: Open Sans;
+  color: #8CFBDE;
+}
+
+h2, h3{
+  font-family: Open Sans;
+  color: #160C28;
+
+}
+
+strong {
+  color: #160C28;
+}
+
+.fa {
+  font-size: 30px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  margin-left: 0px;
+  color: #8CFBDE;
+  font-family: Montserrat;
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+a {
+  font-family: Open Sans;
+  color: #C2FAF1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8CFBDE;
+  text-decoration: none;
+}
+
+tr img{
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* Here goes your CSS */
