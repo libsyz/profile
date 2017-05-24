@@ -1,3 +1,7 @@
+
+/* Sidebar stuff
+*/
+
 #sidebar {
     background-color: #384047;
     position: fixed;
@@ -9,12 +13,27 @@
 }
 
 
+
 #sidebar ul {
   display: inline;
 }
 
 #sidebar ul li {
+  color: #F2F2F2;
   font-family: Montserrat;
+  padding-bottom: 5px;
+
+}
+
+#sidebar ul li p {
+  color: #384047;
+  padding-top: 2px;
+  line-height: 1px;
+  font-size: 14px;
+}
+
+#sidebar ul li:hover, #sidebar ul li p:hover {
+  color: #8CFBDE;
 }
 
 
