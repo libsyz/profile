@@ -8,7 +8,7 @@
     left: 0px;
     top: 0px;
     bottom: 0px;
-    width: 120px;
+    width: 80px;
     text-align: center;
 }
 
@@ -25,33 +25,72 @@
 
 }
 
-#sidebar ul li p {
+#sidebar li p {
   color: #384047;
   padding-top: 2px;
   line-height: 1px;
   font-size: 14px;
 }
 
-#sidebar ul li:hover, #sidebar ul li p:hover {
+#sidebar ul li:hover p,
+#sidebar ul li:hover  {
   color: #8CFBDE;
 }
 
+ /*---- end of sidebar stuff --- */
+
+.wrapper {
+  background-color: #EDEEEF;
+  padding: 15px;
+  width: 1010px;
+  position: relative;
+  left: 110px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
 
 body {
   background-color: #F2F2F2;
   background-image: url('images/seigaiha.png')
 }
 
-.container {
-  width: 700px;
-  margin: 0 auto;
+#content-left {
+  width: 500px;
+  text-align: center;
+  float: left;
+}
+
+#content-right {
+  width: 500px;
+  text-align: center;
+  float: right;
+}
+
+#footer {
+  clear: both;
 }
 
 #profile {
   border-radius: 50%;
 }
 
-.card {
+.card-text-left {
+    background: #937CC3;
+    padding: 47px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-text-bottom {
+    background: #937CC3;
+    padding: 47.8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-text-right {
     background: #937CC3;
     padding: 20px;
     margin-bottom: 20px;
@@ -59,10 +98,13 @@ body {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-.text-center {
-  text-align: center;
- }
-
+.card-footer {
+    background: #937CC3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
 
 
 p {
@@ -102,6 +144,30 @@ strong {
   padding-right: 20px;
   padding-top: 20px;
 }
+
+.card-footer ul li {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 15px;
+  position: relative;
+  clear: right;
+}
+
+.list-inline-footer li {
+  position: relative;
+  right: -770px;
+}
+
+.list-inline-magic li {
+  margin-left: 0px;
+  color: #8CFBDE;
+  font-family: Montserrat;
+  display: inline-block;
+  padding-right: 20px;
+
+}
+
+
 
 a {
   font-family: Open Sans;
