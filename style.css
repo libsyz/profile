@@ -1,7 +1,26 @@
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+
+#sidebar ul {
+  display: inline;
+}
+
+#sidebar ul li {
+  font-family: Montserrat;
+}
+
 
 body {
   background-color: #F2F2F2;
-  background-image: url('../images/seigaiha.png')
+  background-image: url('/images/seigaiha.png')
 }
 
 .container {
